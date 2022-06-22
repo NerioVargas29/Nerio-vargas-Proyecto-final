@@ -1,0 +1,134 @@
+@import"estudios";
+@import"hobby";
+@import"noticias";
+@import"contacto";
+@import"../base/variables";
+@import"../base/listas";
+@import"mixins";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: $color-principal;
+    width: 100%;
+    
+    
+
+    h1{
+        font-size: 30px;
+    }
+    p{color: #fff;
+
+    }
+ul li a{
+        background:$color-secundario;
+        color:black;
+        padding: 10px 30px ;
+        margin: 10px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius:20px 5px 15px 40px;
+        transition: 1s;
+        border: 2px solid black;
+        box-shadow: #082032 5px 5px 5px ;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .menu-container{
+        width: 100%;
+        height:auto;
+    .container-logo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    .barra-navegacion{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:end;
+            justify-items: center;
+            background-color: #1e5128;
+     .lista-navegacion {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction:row;
+                justify-content: end;
+                padding:5px;
+                margin: 5px;
+            }
+            
+        }
+    }
+.contenedor-principal{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        .contenedor-carrusel{
+            width: 60%;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }   
+    
+    }
+
+    .parrafo-principal{
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }    
+    .sub-navegacion ul {
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        justify-content: end;
+        padding:5px;
+        margin: 5px;
+    }
+    
+    .iconos-sociales{
+        
+        list-style: none;
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content:center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
