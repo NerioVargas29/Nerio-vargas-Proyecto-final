@@ -186,6 +186,8 @@ body {
   width: 100%; }
   body h1 {
     font-size: 30px; }
+  body p {
+    color: #fff; }
   body ul li a {
     background: #1e5128;
     color: black;
