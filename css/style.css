@@ -338,6 +338,7 @@ body {
   background-color: #082032;
   width: 100%; }
   body .menu-container {
+    width: 100%;
     min-height: 80px;
     display: flex;
     justify-content: space-between;
