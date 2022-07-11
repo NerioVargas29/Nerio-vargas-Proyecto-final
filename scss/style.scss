@@ -12,7 +12,7 @@
 }
 
 
-
+/*  */
 body{
     background-color: $color-principal;
     width: 100%;
@@ -39,6 +39,12 @@ body{
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+    h2{
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+      
+    }
     .nv-1{
         height:60px;
         margin-right: 10px ;
@@ -110,7 +116,9 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-    }    
+    }  
+    
+    /* Barra navegacion */
     .sub-navegacion ul {
         list-style: none;
         display: flex;
@@ -119,24 +127,67 @@ body{
         padding:5px;
         margin: 5px;
     }
-    
-    .iconos-sociales{
+   /* inicio de pie de pagina */
+    .pie-pagina{
+        width: 100%;
+        background-color: #1e5128;
+
+        .grupo-2{
+            color:ghostwhite;
+            text-align: center;
+            padding: 15px 10px;
+        }   
+        .grupo-1{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+            padding: 45px 0px;
+
         
-        list-style: none;
-        display: flex;
-        flex-direction:row-reverse;
-        justify-content:center;
-        flex-wrap: wrap;
-        align-items: baseline;
-    
-        
+        .red-social a {
+            display:inline-block;
+            text-decoration: none;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            color:#1e5128;
+            margin-right: 10px;
+            background-color:#082032;
+            text-align: center;
+            transition: all 300ms ease;
+            -webkit-transition: all 300ms ease;
+            -moz-transition: all 300ms ease;
+            -ms-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+}
+.red-social a:hover{
+    color: #fff;
+}
+                
+        .box figure{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 100px; }
+        h2{
+            color:#fff ;
+            text-align: center; }    }
+       
+            .box h2{
+                color:#fff ;
+                font-size: 20px; }  }
+       
+
+
+
     }
-
-
-
-
-
-
 
 
 

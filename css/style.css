@@ -334,29 +334,12 @@ textarea {
   padding: 0;
   box-sizing: border-box; }
 
+/*  */
 body {
   background-color: #082032;
-  width: 100%; }
-<<<<<<< HEAD
-  body h1 {
-    font-size: 30px; }
-  body p {
-    color: #fff; }
-  body ul li a {
-    background: #1e5128;
-    color: black;
-    padding: 10px 30px;
-    margin: 10px;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 20px 5px 15px 40px;
-    transition: 1s;
-    border: 2px solid black;
-    box-shadow: #082032 5px 5px 5px; }
-  body a {
-    text-decoration: none; }
-=======
->>>>>>> logo
+  width: 100%;
+  /* Barra navegacion */
+  /* inicio de pie de pagina */ }
   body .menu-container {
     width: 100%;
     min-height: 80px;
@@ -373,6 +356,10 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       align-items: center; }
+      body .menu-container .container-logo h2 {
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px; }
       body .menu-container .container-logo .nv-1 {
         height: 60px;
         margin-right: 10px;
@@ -434,10 +421,49 @@ body {
     justify-content: end;
     padding: 5px;
     margin: 5px; }
-  body .iconos-sociales {
-    list-style: none;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: baseline; }
+  body .pie-pagina {
+    width: 100%;
+    background-color: #1e5128; }
+    body .pie-pagina .grupo-2 {
+      color: ghostwhite;
+      text-align: center;
+      padding: 15px 10px; }
+    body .pie-pagina .grupo-1 {
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px; }
+      body .pie-pagina .grupo-1 .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        color: #1e5128;
+        margin-right: 10px;
+        background-color: #082032;
+        text-align: center;
+        transition: all 300ms ease;
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease; }
+      body .pie-pagina .grupo-1 .red-social a:hover {
+        color: #fff; }
+      body .pie-pagina .grupo-1 .box figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        body .pie-pagina .grupo-1 .box figure img {
+          width: 100px; }
+        body .pie-pagina .grupo-1 .box figure h2 {
+          color: #fff;
+          text-align: center; }
+      body .pie-pagina .grupo-1 .box h2 {
+        color: #fff;
+        font-size: 20px; }
